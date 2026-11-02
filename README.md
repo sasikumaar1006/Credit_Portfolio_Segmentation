@@ -17,7 +17,7 @@ An end-to-end data science and machine learning application designed to conduct 
 ---
 
 ## 🔍 Project Overview
-Managing credit risk efficiently requires moving beyond rigid, one-size-fits-all underwriting. This project implements an advanced quantitative pipeline that combines dimensionality reduction, unsupervised clustering, and exploratory behavioral analysis. The insights are packaged into a high-performance, interactive executive dashboard deployed on Streamlit Cloud.
+This project implements an advanced quantitative pipeline that combines dimensionality reduction, unsupervised clustering, and exploratory behavioral analysis. The insights are packaged into a high-performance, interactive executive dashboard deployed on Streamlit Cloud.
 
 ---
 
@@ -50,7 +50,7 @@ Financial institutions face significant exposure to loan defaults, over-leverage
 
 ## 📊 Key Performance Metrics & Model Insights
 
-* **Variance Explained:** The 10-component PCA configuration successfully compresses complex financial features while retaining $\sim 58\%$ of total variance, avoiding overfitting.
+* **Variance Explained:** The 10-component PCA configuration successfully compresses complex financial features while retaining ~58% of total variance, avoiding overfitting.
 * **Cluster Separation:** Silhouette scores ranging between **0.3 and 0.4** indicate meaningful, moderately dense separation between low-, medium-, and high-risk borrower clusters.
 * **Default Pattern Identification:** High DTI ratios combined with lower FICO tiers disproportionately concentrate default rates, highlighting the necessity of strict leverage boundaries.
 
